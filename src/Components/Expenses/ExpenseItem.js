@@ -7,7 +7,7 @@ const ExpenseItem =(props) => {
     const [amount, setAmount] = useState(props.amount) ;
  
   const clickHandler= () => {
-    setAmount('100 $');
+    setAmount(' ');
   }
   return (
     <Card className="expense-item">
